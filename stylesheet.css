@@ -78,7 +78,7 @@ ul li{
 }
 @media (max-width: 599px){
     h2::before{
-        content:"~~~~~~~~~~~~~~~~~~~~~~~~";
+        content:"..........";
     }
 }
 
