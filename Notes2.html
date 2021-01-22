@@ -1,9 +1,106 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>My Webpage</title>
-</head>
-<body>
-    Hello, world!
+    
+    
+    <head>
+        <title>The Basics</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
+
+    </head>
+    
+    
+    <body>
+        <h1 style="text-align:center" id="TopOfPage" >ENGO 551 Lab 0 Assignment</h1>
+        <h5 style="text-align:center"><span class="Author">Assignment by Tanya Hegmann</span></h5>
+        <h2 style="text-align:center"> </h2>
+
+     <div class="container">
+        <div class="row" style="text-align:center";border: 4px solid darkgrey;>
+            <div class="col-3" style="text-align:center";border: 4px solid darkgrey;>
+                <div class="alert alert-danger" role="alert">
+                      <a href="Notes1.html">Overall Notes</a>
+                </div>
+            </div>
+            <div class="col-3">        
+                <div class="alert alert-warning" role="alert">
+                      <a href="Notes2.html">Notes2</a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="alert alert-success" role="alert">
+                      <a href="Notes3.html">Notes3</a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="alert alert-primary" role="alert">
+                      <a href="Notes4.html">Notes4</a>
+                </div>
+            </div>
+         </div>
+        
+        <h3 style="text-align:center">The Basics - Head, Body, Style</h3>
+        <h2 style="text-align:center"> </h2>
+         
+         
+                 <h3>Head Code</h3>
+        <ul>
+            <li> Represented by &lt;head&gt;</li>
+            <li> A form a metadata that is read in however not displayed</li>
+            <li> The title tag  &lt;title&gt; shows what the tab title is called</li>
+            <li> Can have a &lt;style&gt; tag where followed by curly brackets {} can define CSS traits</li>
+            <li> Can link to other sheets like stylesheets with &lt;link rel="linktype" href="filename.type"&gt;</li>
+        </ul>
+        
+
+         <h3>Body Code</h3>
+        <ul>
+            <li> Represented by &lt;body&gt;</li>
+            <li> Main body of the text, what is shown and displayed</li>
+            <li> Has different types of ways ti display text including:</li>
+            <ol> 
+                <li> Paragraphs </li>
+                    <ul>
+                        <li> Represented by &lt;p&gt;</li>
+                        <li> Good for bodies of text</li>
+                    </ul> 
+                <li> Divisions </li>
+                    <ul>
+                        <li> Represented by &lt;div&gt;</li>
+                        <li> Division of sections of the webpage (vertically)</li>
+                        <li> Allow to label different parts of the page</li>
+                        <li> Can use a reference name id by &lt;div id="refname"&gt;</li>
+                        <li> Each reference name id needs to be indiviual and unique </li>
+                        <li> Use the # sign to refer to id names in style{} </li>
+                    </ul>
+                <li> Spans </li>
+                    <ul>
+                        <li> Represented by &lt;span class="name"&gt;name&lt;/span&gt;</li>
+                        <li> Label out horizentally different parts of the page</li>
+                        <li> Multiple items can have the same class</li>
+                        <li> Use .name to refer to certain class classifications </li>
+                    </ul>
+                <li> Headings </li>
+                     <ul>
+                        <li> Can show text through headings &lt;h#&gt;</li>
+                        <li> Headings range from h1 to h6 where 1 is the largest and 6 is the smallest</li>
+                     </ul>
+            </ol>
+        </ul>
+         
+         
+       <h3> CSS Cascading Style Sheets </h3>
+            <ul>
+            <li> Great for combing text for repeated situations requiring the same style</li>
+            <li> Reads CSS style commands (google for many great resources on font, colour, position, shadow, bold, etc)</li>
+            <li> Used visual studios to create the specific .css file</li>
+            <li> If the page can't find the linked stylesheet, it can still run without it</li>
+            <li> Stylesheet linked in the head section</li>
+            <li> Refers back to defined terms like all pargaphs, headers, spans or divides</li>
+            <li> Can refer to multiple things in style instead of h1{} can do h1,h2{} for traits to apply to both</li>
+        </ul> 
+           
+         
+         
 </body>
 </html>
