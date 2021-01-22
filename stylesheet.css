@@ -57,3 +57,16 @@ ul li{
     color: black;
     
 }
+
+@media (min-width: 500px){
+    body{
+        background-color: lightgrey;
+        
+    }
+}
+@media (max-width: 499px){
+    body{
+        background-color: grey;
+        
+    }
+}
