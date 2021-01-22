@@ -59,14 +59,14 @@ ul li{
 }
 
  @media (min-width: 600px){
-    body{
+    body {
         background-color: lightgrey;
         
     }
 }
 @media (max-width: 599px)
         {
-    body{
+    body {
         background-color: lightyellow; 
         }
 }
