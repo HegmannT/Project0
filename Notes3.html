@@ -1,9 +1,163 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>My Webpage</title>
-</head>
-<body>
-    Hello, world!
+    
+    
+    <head>
+        <title>Tags and Inserts</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
+
+    </head>
+    
+    
+    <body>
+        <h1 style="text-align:center" id="TopOfPage" >ENGO 551 Lab 0 Assignment</h1>
+        <h5 style="text-align:center"><span class="Author">Assignment by Tanya Hegmann</span></h5>
+        <h2 style="text-align:center"> </h2>
+
+     <div class="container">
+        <div class="row" style="text-align:center";border: 4px solid darkgrey;>
+            <div class="col-3" style="text-align:center";border: 4px solid darkgrey;>
+                <div class="alert alert-danger" role="alert">
+                      <a href="Notes1.html">Overall Notes</a>
+                </div>
+            </div>
+            <div class="col-3">        
+                <div class="alert alert-warning" role="alert">
+                      <a href="Notes2.html">The Basics - Head/Body/Style</a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="alert alert-success" role="alert">
+                      <a href="Notes3.html">Tags and Inserts</a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="alert alert-primary" role="alert">
+                      <a href="Notes4.html">Notes4</a>
+                </div>
+            </div>
+         </div>
+        
+        <h3 style="text-align:center">Tags and Inserts</h3>
+        <h2 style="text-align:center"> </h2>
+         
+         
+         
+                 <h3> Lists </h3>
+        <ul>
+            <li> Can have ordered lists with &lt;ol&gt; which lists items by number </li>
+            <ol> 
+                <li> Item 1 </li>
+                <li> Item 2 </li>
+                <li> Item 3 </li>
+            </ol>
+            <li> Can have unordered lists with &lt;ul&gt; which lists items by a dot </li>
+            <ul> 
+                <li> Item 1 </li>
+                <li> Item 2 </li>
+                <li> Item 3 </li>
+            </ul>
+            <li> Nested under the list type is &lt;li&gt; for list items </li>
+            <li> Lits can be nested within one another </li>
+        </ul> 
+    
+        <h3> Tables </h3>
+        <ul>
+            <li> Can create tables with the &lt;table&gt; tag</li>
+            <li> Nested under the table is the &lt;tr&gt; tag for each table row (think of it like matrices in c++)</li>
+            <li> Nested under the table is then the &lt;th&gt; tag for table headder listing the table headings similar to &lt;li&gt;</li>
+            <li> After the table header is then in the next row listed &lt;td&gt; tag for table data</li>
+            <li> Good to put borders around the table to make it look fancier (with CSS)</li>
+        </ul>
+        
+            <p> A random example of a table is below as follows followed by the code non-rendered, note the similarities when constructing by hand matrices in C++ (ot Python) the nested lists within lists</p>
+            <table>
+                <tr>
+                    <th> Header 1 </th>
+                    <th> Header 2 </th>
+                </tr>
+                <tr>
+                    <td> Data 1 </td>
+                    <td> Data 2 </td>
+                </tr>
+                <tr>
+                    <td> C++ </td>
+                    <td> Python </td>
+                </tr>
+            </table>
+    
+        <p>&lt;table&gt;</p>
+                <p>&lt;tr&gt;</p>
+                    <p>&lt;th&gt; Header 1 &lt;/th&gt;</p>
+                    <p>&lt;th&gt; Header 2 &lt;/th&gt;</p>
+                <p>&lt;/tr&gt;</p>
+                <p>&lt;tr&gt;</p>
+                    <p>&lt;td&gt; Data 1 &lt;/td&gt;</p>
+                    <p>&lt;td&gt; Data 2 &lt;/td&gt;</p>
+               <p> &lt;/tr&gt;</p>
+                <p>&lt;tr&gt;</p>
+                    <p>&lt;td&gt; C++ &lt;/td&gt;</p>
+                   <p> &lt;td &gt; Python &lt;/td&gt;</p>
+                <p>&lt;/tr&gt;</p>
+            <p>&lt;/table&gt;</p>
+    
+    
+        <h3> Recieving Input </h3>
+            <ul>
+                <li> Can recieve input from the user (I/O)</li>
+                <li> Can implement through the &lt;form&gt; tag </li>
+                <li> Recieve input under form tag with nested &lt;input type="inputtype" placeholder="PlaceText" name="variablename"&gt;</li>
+                <li> Input type text returns normal text showing, verses password makes the dots appear instead of text as if you were typing in a password</li>
+                <li> Radio type gives select options, can also associate with a list that is listed to populate a drop down form </li>
+                <li> The placeholder text appears overtop of the entry bar</li>
+                <li> Variable name can callback to the input later or pass on (discuss later)</li>
+                <li> Can also have a button nested under form with &lt;button&gt;Text&lt;/button&gt;</li>
+                <li> Can link the input to other forms in the future </li>
+            </ul>
+                <p> A example of a form is as below, it is currently not linked to anything.</p>
+            <form>
+                <input type="text" placeholder="Empty Text" name="Variable1">
+                <button><span class="Button">Pointless Button!</span></button>
+            </form> 
+
+    
+        <h3> Images </h3>
+            <ul>
+                <li> Can add images to the webpages</li>
+                <li> Can either link to an image same folder with html files, or link an address</li>
+                <li> Implement images through &lt;img scr="imgname.type"&gt;</li>
+                <li> There is no /end for an image tag, it exists continuously </li>
+                <li> scr asks to provide the source of the image name or where it can be found</li>
+                <li> Images are normally rendered at their traditional pixel size they are saved in</li>
+                <li> Can define a pizel size through height="pixelnum" and width="pixelnum"</li>
+                <li> If only one height or width is specified, then browser adjusts other leg of the image to fit</li>
+                <li> If set the dimension parameter to be ="50%" it will scale to the web page size of 50% of the web page, no longer fixed number of pixels </li>
+                <li> Changing image sizes can be good for a phone/changing screen size user interface</li>
+                <p> An example of an image has been included below. This image is of a friend's cat named Onyx(photoshopped). I purchased this image comission and am able to post it here on this website.</p>
+            </ul> 
+    
+        
+        <div id="onyx">
+        
+        <img src="Onyx2.jpg" width="70%">
+        
+            <p> His Nobleness <span class="catname">Onyx The Cat</span> </p>
+    
+        </div>
+    
+        
+        
+   <h3> Links </h3>
+        <ul>
+            <li> Can use html to connect multiple different websites through links</li>
+            <li> Can implement through the use of the a tag: &lt;a href="link"&gt;TextofLink&lt;/a&gt;</li>
+            <li> 'a' represents the anchor as 'href' is the hyperlink reference </li>
+            <li> Can link to the same place on the page through linking to an id location instead of the link (think table of contents)</li>
+        </ul> 
+        <p> An example links would be the links between pages on this website. The links from the top of the page are acomplished through this. The following link returns to the top of the page:</p>
+        <a href="#TopOfPage">Return to Top of Page</a>
+         
+         
 </body>
 </html>
