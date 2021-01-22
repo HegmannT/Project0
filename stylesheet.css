@@ -70,3 +70,14 @@ ul li{
         background-color: lightyellow; 
         }
 }
+
+@media (min-width: 600px){
+    h6::before{
+        content:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    }
+}
+@media (max-width: 599px){
+    h6::before{
+        content:"mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm";
+    }
+}
