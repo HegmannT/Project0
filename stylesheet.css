@@ -1,4 +1,12 @@
 ﻿h1 {
-    color: blue;
+    color: purple;
     text-align: center;
-}
+    font-family: verdana;
+    margin: 50px;
+    }
+
+h3 {
+    color: darkpurple;
+    text-align: left;
+    padding: 30px;
+    }
