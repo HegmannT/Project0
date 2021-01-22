@@ -47,3 +47,12 @@ h3 {
     font-weight:bold;
     font-style: italic;
 }
+
+ol li{
+    color: darkgrey;
+}
+
+ul li{
+    color: darkgrey;
+    
+}
