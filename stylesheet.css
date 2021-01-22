@@ -61,12 +61,16 @@ ul li{
 @media (min-width: 800px){
     body{
         background-color: lightgrey;
+        <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+
         
     }
 }
 @media (max-width: 799px){
     body{
         background-color: lightyellow;
+        <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+
         
     }
 }
