@@ -10,3 +10,17 @@ h3 {
     text-align: left;
     padding: 30px;
     }
+
+﻿p { 
+     padding: 30px;
+}
+
+#onyx{
+    font-family: verdana;
+    text-shadow: 2px 2px 5px darkblue;
+}
+
+.catname{
+    font-family: cursive;
+    font-weight:bold;
+}
