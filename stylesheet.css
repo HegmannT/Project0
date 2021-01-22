@@ -58,19 +58,4 @@ ul li{
     
 }
 
-@media (min-width: @screen-sm-min){
-    body{
-        background-color: lightgrey;
-
-
-        
-    }
-}
-@media (max-width: @screen-md-min){
-    body{
-        background-color: lightyellow;
-
-        
-    }
-}
 
