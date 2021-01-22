@@ -61,7 +61,6 @@ ul li{
 @media (min-width: @screen-sm-min){
     body{
         background-color: lightgrey;
-        <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
 
 
         
@@ -70,7 +69,6 @@ ul li{
 @media (max-width: @screen-md-min){
     body{
         background-color: lightyellow;
-        <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
 
         
     }
