@@ -10,14 +10,14 @@
     
     <body>
         <h1 style="text-align:center">ENGO 551 Lab 0 Assignment</h1>
-        <h5 style="text-align:right">Assignment by Tanya Hegmann</h1>
+        <h5 style="text-align:right"><span class="Author">Assignment by Tanya Hegmann</span></h1>
 
         <h3>Preface</h3>
         <p> For this lab assignment, I am creating a website based on my notes taken while learning about html coding.</p>
         <p> As a visual learner, I learn through seeing examples. Its best to observe something to be able to learn and remember it. Through saving my notes through a website, I am able to build in integrated examples that otherwise could not be done through paper notes. Thus I am making this webpage of choice on topics we learned to build this webpage, in order to remember them better.
     
         
-        <h5 style="text-align:right">Apologies in advance for any spelling errors</h1>
+        <h5 style="text-align:right"><span class="mysc">Apologies in advance for any spelling errors</span></h1>
       
         
         <h3>High Level Notes</h3>
@@ -26,6 +26,7 @@
             <li> In this document, due to wanting to show demo code without it executing, &lt; and &gt; will be displayed using "& l t ;" for &lt; and "& g t ;" for &gt; (no spaces)</li>
             <li> This was developed fully using GitHub and its own integrated editing modes</li>
             <li> Indentation is not required for html, however good practice for visual fluidity in code</li>
+            <li> Most opening tags with &lt;tag&gt; need to be closed with &lt;/tag&gt;</li>
             <li> The DocType declares what type of file(html) is being used and thus should be read, tells the reader what it should be reading </li>
         </ul>
 
@@ -37,6 +38,17 @@
             <li> Can have a &lt;style&gt; tag where followed by curly brackets {} can define CSS traits</li>
             <li> Can link to other sheets like stylesheets with &lt;link rel="linktype" href="filename.type"&gt;</li>
         </ul>
+        
+        <h3> CSS Cascading Style Sheets </h3>
+            <ul>
+            <li> Great for combing text for repeated situations requiring the same style</li>
+            <li> Reads CSS style commands (google for many great resources on font, colour, position, shadow, bold, etc)</li>
+            <li> Used visual studios to create the specific .css file</li>
+            <li> If the page can't find the linked stylesheet, it can still run without it</li>
+            <li> Stylesheet linked in the head section</li>
+            <li> Refers back to defined terms like all pargaphs, headers, spans or divides</li>
+        </ul> 
+        
         
          <h3>Body Code</h3>
         <ul>
@@ -60,7 +72,7 @@
                     </ul>
                 <li> Spans </li>
                     <ul>
-                        <li> Represented by &lt;span class="name"&gt;</li>name&lt;/span&gt;</li>
+                        <li> Represented by &lt;span class="name"&gt;name&lt;/span&gt;</li>
                         <li> Label out horizentally different parts of the page</li>
                         <li> Multiple items can have the same class</li>
                         <li> Use .name to refer to certain class classifications </li>
@@ -144,7 +156,7 @@
                 <p> A example of a form is as below, it is currently not linked to anything.</p>
             <form>
                 <input type="text" placeholder="Empty Text" name="Variable1">
-                <button>Pointless Button!</button>
+                <button><span class="Button">Pointless Button!</span></button>
             </form> 
 
     
@@ -159,6 +171,7 @@
                 <li> Can define a pizel size through height="pixelnum" and width="pixelnum"</li>
                 <li> If only one height or width is specified, then browser adjusts other leg of the image to</li> fit
                 <li> If set the dimension parameter to be ="50%" it will scale to the web page size of 50% of the web page, no longer fixed number of pixels </li>
+                <li> Changing image sizes can be good for a phone/changing screen size user interface</li>
                 <p> An example of an image has been included below. This image is of a friend's cat named Onyx(photoshopped). I purchased this image comission and am able to post it here on this website.</p>
             </ul> 
     
@@ -172,23 +185,7 @@
         </div>
     
    
-     <h3> Stylesheets </h3>
-        Great for combing text
-        Use Visual studios to create
-        If cant find the stylesheet then will skip and not include (check correct file location/link)
-        refers back to defined terms say all pargaphs, headers, spans or divides
-        .css files
-        
-        
-        
-        
-        
-     <h3>CSS Cascading style sheets</h3>
-    
-    
-    
-       
-        
+
         
         
         
