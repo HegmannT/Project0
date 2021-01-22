@@ -60,13 +60,13 @@ ul li{
 
 @media (min-width: 800px){
     body{
-        background-color: purple;
+        background-color: whitesmoke;
         
     }
 }
 @media (max-width: 799px){
     body{
-        background-color: lightgrey;
+        background-color: purple;
         
     }
 }
