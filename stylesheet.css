@@ -18,9 +18,10 @@ h3 {
 #onyx{
     font-family: verdana;
     text-shadow: 2px 2px 5px darkblue;
+    text-align: center;
 }
 
 .catname{
-    font-family: cursive;
+    font-family: fantasy;
     font-weight:bold;
 }
