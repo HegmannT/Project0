@@ -26,3 +26,21 @@ h3 {
     font-family: fantasy;
     font-weight:bold;
 }
+
+.mysc{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.Author
+{
+    font-weight:bold;
+    font-style: italic;
+}
+
+.Button
+{
+    font-family: fantasy;
+    font-weight:bold;
+    font-style: italic;
+}
