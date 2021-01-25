@@ -13,13 +13,13 @@
 #rainbow{
     color:purple;
     border-style: dashed;
-  border-color: red;
+  border-color: blue;
 }
 
 #rainbow h4{ 
     color: red;
   border-style: dotted;
-  border-color: orange;
+  border-color: red;
 }
 
 #rainbow ol {
