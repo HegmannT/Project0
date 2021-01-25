@@ -26,9 +26,11 @@
     color: green;}
 
 .inheritance1 {
+  border-style: double;
   border-color: yellow;
 }
 
 .inheritance2 {
+  border-style: ridge;
   border-color: red;
 }
