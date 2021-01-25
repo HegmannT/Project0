@@ -1,6 +1,6 @@
 $ncolor: red;
 
-%inheritance{
+.inheritance1, .inheritance2 {
   padding: 10px;
   color: green;
 }
@@ -23,7 +23,10 @@ div h4{
 div ol {
     color: green;}
 
-.example {
-  @extend %inheritance;
-  border-color: green;
+.inheritance1 {
+  border-color: yellow;
+}
+
+.inheritance2 {
+  border-color: red;
 }
