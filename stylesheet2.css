@@ -1,4 +1,4 @@
-$ncolor: red;
+/* Original Variable form $ncolor: red; Was translated to CSS so imput the value */
 
 .inheritance1, .inheritance2 {
   padding: 10px;
@@ -16,8 +16,8 @@ $ncolor: red;
 }
 
 div h4{ 
-    color: $ncolor;
-  border: 3px solid $ncolor;
+    color: red;
+  border: 3px solid red;
 }
 
 div ol {
