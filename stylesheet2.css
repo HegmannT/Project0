@@ -15,12 +15,12 @@
     border: 1px solid $ncolor;
 }
 
-div h4{ 
+#rainbow h4{ 
     color: red;
   border: 3px solid red;
 }
 
-div ol {
+#rainbow ol {
     color: green;}
 
 .inheritance1 {
