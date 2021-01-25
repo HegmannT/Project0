@@ -1,13 +1,18 @@
+$ncolor: red;
+
+
 * {
     font-family: verdana;
 }
 
 #rainbow{
     color:purple;
-div {
-    font-size: 30px;}
-    div p {
-        color: red;}
-    div ol {
-        color: green;}
+    border: 1px solid $ncolor;
 }
+
+div p{ 
+    color: red;}
+
+div ol {
+    color: green;}
+
