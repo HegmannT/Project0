@@ -17,9 +17,9 @@
 }
 
 #rainbow h4{ 
-    color: red;
+    color: blue;
   border-style: dotted;
-  border-color: red;
+  border-color: blue;
 }
 
 #rainbow ol {
