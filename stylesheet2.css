@@ -5,6 +5,15 @@
   color: green;
 }
 
+.inheritance1 {
+  border-style: double;
+  border-color: yellow;
+}
+
+.inheritance2 {
+  border-style: ridge;
+  border-color: red;
+}
 
 * {
     font-family: verdana;
@@ -25,12 +34,4 @@
 #rainbow ol {
     color: green;}
 
-.inheritance1 {
-  border-style: double;
-  border-color: yellow;
-}
 
-.inheritance2 {
-  border-style: ridge;
-  border-color: red;
-}
