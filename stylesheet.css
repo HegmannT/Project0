@@ -34,6 +34,13 @@ h3, h4 {
     font-style: italic;
 }
 
+
+p.mysc{
+    font-size: 12px;
+    font-style: italic;
+    font-weight:bold;
+}
+
 .Author
 {
     text-align: center;
