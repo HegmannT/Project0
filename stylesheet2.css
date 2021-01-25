@@ -16,7 +16,7 @@ $ncolor: red;
 }
 
 div h4{ 
-    color: red;
+    color: $ncolor;
   border: 3px solid $ncolor;
 }
 
