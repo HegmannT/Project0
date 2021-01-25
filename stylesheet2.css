@@ -12,12 +12,14 @@
 
 #rainbow{
     color:purple;
-    border: 1px solid $ncolor;
+    border-style: dashed;
+  border-color: red;
 }
 
 #rainbow h4{ 
     color: red;
-  border: 3px solid red;
+  border-style: dotted;
+  border-color: orange;
 }
 
 #rainbow ol {
