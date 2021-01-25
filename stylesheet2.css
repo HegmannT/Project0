@@ -1,7 +1,8 @@
 /* Original Variable form $ncolor: red; Was translated to CSS so imput the value */
 
 .inheritance1, .inheritance2 {
-  padding: 10px;
+  margin-top: 100px;
+  padding: 20px;
   color: green;
 }
 
@@ -12,7 +13,7 @@
 
 .inheritance2 {
   border-style: ridge;
-  border-color: red;
+  border-color: cyan;
 }
 
 * {
@@ -26,9 +27,9 @@
 }
 
 #rainbow h4{ 
-    color: blue;
+    color: red;
   border-style: dotted;
-  border-color: blue;
+  border-color: red;
 }
 
 #rainbow ol {
