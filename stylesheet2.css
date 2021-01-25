@@ -16,7 +16,9 @@ $ncolor: red;
 }
 
 div h4{ 
-    color: red;}
+    color: red;
+  border: 3px solid $ncolor;
+}
 
 div ol {
     color: green;}
